@@ -1,0 +1,11 @@
+api_version = "2025-10"
+
+[[extensions]]
+name = "Send to INKA Production"
+handle = "send-to-inka-production"
+uid = "e18dace0-d6da-094b-8a00-6a2e589b34a8f2fee6fc"
+type = "ui_extension"
+
+[[extensions.targeting]]
+module = "./src/ActionExtension.jsx"
+target = "admin.order-index.selection-action.render"
